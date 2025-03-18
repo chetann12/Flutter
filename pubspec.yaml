@@ -39,6 +39,7 @@ dependencies:
   webview_flutter: ^4.2.2
   carousel_slider: ^5.0.0
   lottie: ^3.3.1
+  webview_flutter_web: ^0.2.2
 
 dev_dependencies:
   flutter_test:
@@ -71,6 +72,11 @@ flutter:
     - assets/home_mca2.jpg
     - assets/home_mca3.jpg
     - assets/Animation.json
+    - assets/aarti.png
+    - assets/PT.png
+    - assets/NM.jpg
+    - assets/HK.png
+    - assets/SS.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

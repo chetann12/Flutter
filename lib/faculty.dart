@@ -17,7 +17,7 @@ class FacultyScreen extends StatelessWidget {
             subject: "Web Technology",
             experience: "8+ years",
             additionalSubjects: ["Cyber Security", "Cloud Computing"],
-            imagePath: "SS.png",
+            imagePath: "assets/SS.png",
           ),
           FacultyCard(
             name: "Prof. Harshil Kanakia",
@@ -25,7 +25,7 @@ class FacultyScreen extends StatelessWidget {
             subject: "AI & ML",
             experience: "10+ years",
             additionalSubjects: ["Data Science", "Deep Learning"],
-            imagePath: "HK.png",
+            imagePath: "assets/HK.png",
           ),
           FacultyCard(
             name: "Prof. Nikhita Mangaonkar",
@@ -36,7 +36,7 @@ class FacultyScreen extends StatelessWidget {
               "Computer Networking",
               "Software Testing & Quality Assurance"
             ],
-            imagePath: "NM.jpg",
+            imagePath: "assets/NM.jpg",
           ),
           FacultyCard(
             name: "Prof. Pallavi Thakur",
@@ -44,7 +44,7 @@ class FacultyScreen extends StatelessWidget {
             subject: "Machine Learning",
             experience: "8+ years",
             additionalSubjects: ["Web Technology", "Data Science"],
-            imagePath: "PT.png",
+            imagePath: "assets/PT.png",
           ),
           FacultyCard(
             name: "Prof. Aarti Karande",
@@ -52,7 +52,7 @@ class FacultyScreen extends StatelessWidget {
             subject: "Artifical Intelligence",
             experience: "8+ years",
             additionalSubjects: ["Advanced Java", "Business Intelligence"],
-            imagePath: "aarti.png",
+            imagePath: "assets/aarti.png",
           ),
         ],
       ),

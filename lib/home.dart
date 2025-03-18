@@ -3,9 +3,9 @@ import 'package:carousel_slider/carousel_slider.dart';
 
 class HomeScreen extends StatelessWidget {
   final List<String> imagePaths = [
-    'home_mca.jpg', // Replace with actual image assets
-    'home_mca2.jpg',
-    'home_mca3.jpg',
+    'assets/home_mca.jpg', // Replace with actual image assets
+    'assets/home_mca2.jpg',
+    'assets/home_mca3.jpg',
   ];
 
   @override

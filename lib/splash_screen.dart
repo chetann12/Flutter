@@ -12,10 +12,12 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
     Future.delayed(Duration(seconds: 3), () {
-      Navigator.pushReplacement(
-        context,
-        MaterialPageRoute(builder: (context) => MainScreen()),
-      );
+      if (mounted) {
+        Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(builder: (context) => MainScreen()),
+        );
+      }
     });
   }
 
@@ -30,7 +32,7 @@ class _SplashScreenState extends State<SplashScreen> {
           children: [
             // Lottie Animation
             Lottie.asset(
-              'Animation.json', // Ensure this matches your assets folder
+              'assets/Animation.json', // Ensure this matches your assets folder
               width: 250,
               height: 250,
               fit: BoxFit.cover,
